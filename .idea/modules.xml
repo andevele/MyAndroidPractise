@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CustomViewGroup1/CustomViewGroup1.iml" filepath="$PROJECT_DIR$/CustomViewGroup1/CustomViewGroup1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlowLayout/FlowLayout.iml" filepath="$PROJECT_DIR$/FlowLayout/FlowLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyAndroidPractise.iml" filepath="$PROJECT_DIR$/MyAndroidPractise.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
