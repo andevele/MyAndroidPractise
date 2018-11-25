@@ -1,18 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.zhulf.myandroidpractise.MainActivity">
+    android:layout_height="match_parent">
 
-    <TextView
+    <com.zhulf.myandroidpractise.FlowLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="wrap_content">
 
-</android.support.constraint.ConstraintLayout>
+        <TextView
+            style="@style/text_style"
+            android:text="Android学习笔记" />
+
+        <TextView
+            style="@style/text_style"
+            android:text="英语教学" />
+
+        <TextView
+            style="@style/text_style"
+            android:text="计算机科学与技术" />
+
+        <TextView
+            style="@style/text_style"
+            android:text="民用飞机维修" />
+
+        <TextView
+            style="@style/text_style"
+            android:text="物联网科技" />
+
+        <TextView
+            style="@style/text_style"
+            android:text="深圳南山" />
+
+        <TextView
+            style="@style/text_style"
+            android:text="西丽地铁" />
+
+        <TextView
+            style="@style/text_style"
+            android:text="安卓招聘" />
+
+        <TextView
+            style="@style/text_style"
+            android:text="软件开发工程师" />
+
+        <TextView
+            style="@style/text_style"
+            android:text="高级安卓工程师" />
+
+        <TextView
+            style="@style/text_style"
+            android:text="某某科技有限公司" />
+
+        <TextView
+            style="@style/text_style"
+            android:text="深入理解自定义view" />
+
+        <TextView
+            style="@style/text_style"
+            android:text="binder通信机制" />
+
+        <TextView
+            style="@style/text_style"
+            android:text="Handler源码分析" />
+    </com.zhulf.myandroidpractise.FlowLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="请输入标签内容"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="添加分类"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>
