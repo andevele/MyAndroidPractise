@@ -29,6 +29,6 @@ public class MainActivity extends AppCompatActivity {
     private void initData() {
         List<DataBean> dataList = DataUtils.dataEngender();
         mRecyclerView.setAdapter(new TimeLineAdapter(dataList));
-
+        mRecyclerView.addItemDecoration(new TimeLineItemDecoration());
     }
 }
